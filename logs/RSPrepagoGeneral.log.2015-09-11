@@ -1,0 +1,1309 @@
+[2015Sep11 14:54:57,241][INFO ][][destroy AppProperties.java:145][Se libero la carga del Archivo Properties de manera Exitosa]
+[2015Sep11 14:55:35,528][INFO ][][configurarLogger BSSIntLogger.java:67][APLICACION: RSPrepagoGeneral - VERSION: 1.0]
+[2015Sep11 14:55:35,559][INFO ][][configurarLogger BSSIntLogger.java:69][DESCRIPCION: Servicios de Integracion - Recarga de Saldo Prepago - Reporte]
+[2015Sep11 14:55:36,567][INFO ][][configurarLogger BSSIntLogger.java:67][APLICACION: RSPrepagoGeneral - VERSION: 1.0]
+[2015Sep11 14:55:36,592][INFO ][][configurarLogger BSSIntLogger.java:69][DESCRIPCION: Servicios de Integracion - Recarga de Saldo Prepago - Reporte]
+[2015Sep11 14:55:37,379][INFO ][][configurarLogger BSSIntLogger.java:67][APLICACION: RSPrepagoGeneral - VERSION: 1.0]
+[2015Sep11 14:55:37,406][INFO ][][configurarLogger BSSIntLogger.java:69][DESCRIPCION: Servicios de Integracion - Recarga de Saldo Prepago - Reporte]
+[2015Sep11 14:55:38,008][INFO ][][init AppProperties.java:74][Se realizo la carga del Archivo Properties de manera Exitosa]
+[2015Sep11 15:01:05,628][INFO ][1441999865628][doPost SolicitudServlet.java:81][XML Recibido: <?xml version="1.0" encoding="UTF-8"?>
+<RTBS_SCRS_IN>
+	<Channel>IVR</Channel>
+	<SubSys>INTERCABLE</SubSys>
+	<MSISDN>584929946837</MSISDN>
+	<SecretCode>ZFM2JjNX6SS0yzfQr2ANJA==</SecretCode>
+	<SerialNumber>0350</SerialNumber>
+	<Comment>1{910{17{01{0100135933</Comment>
+</RTBS_SCRS_IN>
+		]
+[2015Sep11 15:01:05,697][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: <?xml version="1.0" encoding="UTF-8" ?> 
+<RTBS_SCRS_OUT>
+	<ErrorCode>${ErrorCode}</ErrorCode>
+	<ErrorMessage>${ErrorMessage}</ErrorMessage>
+	<AmountRecharge>${AmountRecharge}</AmountRecharge>
+	<CardType>${CardType}</CardType>
+	<Plan>${Plan}</Plan>
+	<PlanMinSeg>${PlanMinSeg}</PlanMinSeg>
+	<Balance>${Balance}</Balance>
+	<ExpirationDate>${ExpirationDate}</ExpirationDate>
+	<Bonus>${Bonus}</Bonus>
+	<Sec412>${Sec412}</Sec412>
+	<SecOthers>${SecOthers}</SecOthers>
+	<SecAll>${SecAll}</SecAll>
+	<SMS>${SMS}</SMS>
+	<MB>${MB}</MB>
+	<MMS>${MMS}</MMS>
+	<IdTransactionBDD>${IdTransactionBDD}</IdTransactionBDD>
+</RTBS_SCRS_OUT>
+]
+[2015Sep11 15:01:05,699][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: <?xml version="1.0" encoding="UTF-8" ?> 
+<RTBS_SCRS_OUT>
+	<ErrorCode>]
+[2015Sep11 15:01:05,713][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: ErrorCode]
+[2015Sep11 15:01:05,721][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </ErrorCode>
+	<ErrorMessage>]
+[2015Sep11 15:01:05,722][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: ErrorMessage]
+[2015Sep11 15:01:05,724][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </ErrorMessage>
+	<AmountRecharge>]
+[2015Sep11 15:01:05,725][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: AmountRecharge]
+[2015Sep11 15:01:05,726][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </AmountRecharge>
+	<CardType>]
+[2015Sep11 15:01:05,727][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: CardType]
+[2015Sep11 15:01:05,729][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </CardType>
+	<Plan>]
+[2015Sep11 15:01:05,730][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Plan]
+[2015Sep11 15:01:05,731][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </Plan>
+	<PlanMinSeg>]
+[2015Sep11 15:01:05,732][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PlanMinSeg]
+[2015Sep11 15:01:05,734][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </PlanMinSeg>
+	<Balance>]
+[2015Sep11 15:01:05,735][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Balance]
+[2015Sep11 15:01:05,736][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </Balance>
+	<ExpirationDate>]
+[2015Sep11 15:01:05,737][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: ExpirationDate]
+[2015Sep11 15:01:05,738][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </ExpirationDate>
+	<Bonus>]
+[2015Sep11 15:01:05,740][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Bonus]
+[2015Sep11 15:01:05,741][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </Bonus>
+	<Sec412>]
+[2015Sep11 15:01:05,742][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Sec412]
+[2015Sep11 15:01:05,743][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </Sec412>
+	<SecOthers>]
+[2015Sep11 15:01:05,745][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: SecOthers]
+[2015Sep11 15:01:05,746][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </SecOthers>
+	<SecAll>]
+[2015Sep11 15:01:05,747][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: SecAll]
+[2015Sep11 15:01:05,748][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </SecAll>
+	<SMS>]
+[2015Sep11 15:01:05,750][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: SMS]
+[2015Sep11 15:01:05,751][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </SMS>
+	<MB>]
+[2015Sep11 15:01:05,752][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: MB]
+[2015Sep11 15:01:05,753][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </MB>
+	<MMS>]
+[2015Sep11 15:01:05,755][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: MMS]
+[2015Sep11 15:01:05,756][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </MMS>
+	<IdTransactionBDD>]
+[2015Sep11 15:01:05,757][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: IdTransactionBDD]
+[2015Sep11 15:01:05,758][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </IdTransactionBDD>
+</RTBS_SCRS_OUT>
+]
+[2015Sep11 15:01:05,769][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ccws="http://comverse-in.com/prepaid/ccws">
+   <soapenv:Header>
+   <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-18097747" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:Username>${username}</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">${password}</wsse:Password>
+            <wsse:Nonce>4cipKrJU1NirIj2eSceA7g==</wsse:Nonce>
+            <wsu:Created>${date}</wsu:Created>
+         </wsse:UsernameToken>
+      </wsse:Security>
+      <ccws:VersionInfoHeader>
+         <!--Optional:-->
+         <ccws:ProductVersion>?</ccws:ProductVersion>
+         <!--Optional:-->
+         <ccws:CustomerVersion>?</ccws:CustomerVersion>
+      </ccws:VersionInfoHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ccws:NonVoucherRecharge>
+         <!--Optional:-->
+         <ccws:subscriberId>${subscriberId}</ccws:subscriberId>
+         <!--Optional:-->
+         <ccws:rechValue>${rechValue}</ccws:rechValue>
+         <!--Optional:-->
+         <ccws:rechComm>${rechComm}</ccws:rechComm>
+      </ccws:NonVoucherRecharge>
+   </soapenv:Body>
+</soapenv:Envelope>]
+[2015Sep11 15:01:05,771][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ccws="http://comverse-in.com/prepaid/ccws">
+   <soapenv:Header>
+   <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-18097747" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:Username>]
+[2015Sep11 15:01:05,773][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: username]
+[2015Sep11 15:01:05,774][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">]
+[2015Sep11 15:01:05,775][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: password]
+[2015Sep11 15:01:05,777][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </wsse:Password>
+            <wsse:Nonce>4cipKrJU1NirIj2eSceA7g==</wsse:Nonce>
+            <wsu:Created>]
+[2015Sep11 15:01:05,778][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: date]
+[2015Sep11 15:01:05,779][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </wsu:Created>
+         </wsse:UsernameToken>
+      </wsse:Security>
+      <ccws:VersionInfoHeader>
+         <!--Optional:-->
+         <ccws:ProductVersion>?</ccws:ProductVersion>
+         <!--Optional:-->
+         <ccws:CustomerVersion>?</ccws:CustomerVersion>
+      </ccws:VersionInfoHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ccws:NonVoucherRecharge>
+         <!--Optional:-->
+         <ccws:subscriberId>]
+[2015Sep11 15:01:05,781][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: subscriberId]
+[2015Sep11 15:01:05,782][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </ccws:subscriberId>
+         <!--Optional:-->
+         <ccws:rechValue>]
+[2015Sep11 15:01:05,783][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: rechValue]
+[2015Sep11 15:01:05,784][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </ccws:rechValue>
+         <!--Optional:-->
+         <ccws:rechComm>]
+[2015Sep11 15:01:05,786][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: rechComm]
+[2015Sep11 15:01:05,787][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </ccws:rechComm>
+      </ccws:NonVoucherRecharge>
+   </soapenv:Body>
+</soapenv:Envelope>]
+[2015Sep11 15:01:05,789][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: <soapenv:Envelope
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:ccws="http://comverse-in.com/prepaid/ccws">
+	   <soapenv:Header>
+   <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-18097747" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:Username>${username}</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">${password}</wsse:Password>
+            <wsse:Nonce>4cipKrJU1NirIj2eSceA7g==</wsse:Nonce>
+            <wsu:Created>${date}</wsu:Created>
+         </wsse:UsernameToken>
+      </wsse:Security>
+      <ccws:VersionInfoHeader>
+         <!--Optional:-->
+         <ccws:ProductVersion>?</ccws:ProductVersion>
+         <!--Optional:-->
+         <ccws:CustomerVersion>?</ccws:CustomerVersion>
+      </ccws:VersionInfoHeader>
+   </soapenv:Header>
+	<soapenv:Body>
+		<ccws:ModifyVoucher>
+			<ccws:batchNumber>${batchNumber}</ccws:batchNumber>
+			<!--Optional:-->
+			<ccws:newStateName>${newStateName}</ccws:newStateName>
+			<ccws:startSerial>${startSerial}</ccws:startSerial>
+			<ccws:endSerial>${endSerial}</ccws:endSerial>
+		</ccws:ModifyVoucher>
+	</soapenv:Body>
+</soapenv:Envelope>]
+[2015Sep11 15:01:05,790][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: <soapenv:Envelope
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:ccws="http://comverse-in.com/prepaid/ccws">
+	   <soapenv:Header>
+   <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-18097747" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:Username>]
+[2015Sep11 15:01:05,792][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: username]
+[2015Sep11 15:01:05,793][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">]
+[2015Sep11 15:01:05,794][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: password]
+[2015Sep11 15:01:05,796][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </wsse:Password>
+            <wsse:Nonce>4cipKrJU1NirIj2eSceA7g==</wsse:Nonce>
+            <wsu:Created>]
+[2015Sep11 15:01:05,797][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: date]
+[2015Sep11 15:01:05,798][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </wsu:Created>
+         </wsse:UsernameToken>
+      </wsse:Security>
+      <ccws:VersionInfoHeader>
+         <!--Optional:-->
+         <ccws:ProductVersion>?</ccws:ProductVersion>
+         <!--Optional:-->
+         <ccws:CustomerVersion>?</ccws:CustomerVersion>
+      </ccws:VersionInfoHeader>
+   </soapenv:Header>
+	<soapenv:Body>
+		<ccws:ModifyVoucher>
+			<ccws:batchNumber>]
+[2015Sep11 15:01:05,799][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: batchNumber]
+[2015Sep11 15:01:05,801][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </ccws:batchNumber>
+			<!--Optional:-->
+			<ccws:newStateName>]
+[2015Sep11 15:01:05,802][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: newStateName]
+[2015Sep11 15:01:05,803][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </ccws:newStateName>
+			<ccws:startSerial>]
+[2015Sep11 15:01:05,804][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: startSerial]
+[2015Sep11 15:01:05,806][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </ccws:startSerial>
+			<ccws:endSerial>]
+[2015Sep11 15:01:05,807][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: endSerial]
+[2015Sep11 15:01:05,808][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </ccws:endSerial>
+		</ccws:ModifyVoucher>
+	</soapenv:Body>
+</soapenv:Envelope>]
+[2015Sep11 15:01:05,832][DEBUG][1441999865628][init GetCardEquivalenceBDDelegator.java:86][Metodo de inicializacion de contexto para TransactionRegistryDelegator]
+[2015Sep11 15:01:05,836][DEBUG][1441999865628][execute GetCardEquivalenceBDDelegator.java:146][select = SELECT FACE_VALUE, BENEFIT_TYPE, DECODE(FACE_VALUE, 18.5, 18.5, 28.5, 28.5, 48.5, 48.5, 98.5, 98.5,118.5,118.5, REAL_VALUE) AS REAL_VALUE FROM card_category]
+[2015Sep11 15:01:05,882][DEBUG][1441999865628][load CosMinSegData.java:39][#######Cagando Planes MinSegundos]
+[2015Sep11 15:01:06,173][DEBUG][1441999865628][buildSOAPBody PlanMinSegDelegador.java:128][Comando Ensamblado ]
+[2015Sep11 15:01:06,312][DEBUG][1441999865628][execute PlanMinSegDelegador.java:85][EndPonithttp://CFGLOBD05:9001/WSPlanMinSegPrepagoWEB/SolicitudServlet?solicitud]
+[2015Sep11 15:01:06,352][DEBUG][1441999865628][execute PlanMinSegDelegador.java:89][str: org.apache.commons.httpclient.methods.StringRequestEntity@cb0699]
+[2015Sep11 15:01:08,103][DEBUG][1441999865628][execute PlanMinSegDelegador.java:102][Contents <PeriodicCharge>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 48000" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 48000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G EXPERTO" TelephonyType="PLAN DE DATOS">BAM 3G EXPERTO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 550" TelephonyType="TELEFONIA MOVIL">BAM 550</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 18000 ZF" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 18000 ZF</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="PLAN DE DATOS">PRE ACTIVO BAM ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G MODERADO" TelephonyType="PLAN DE DATOS">BAM 3G MODERADO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP50" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 50</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PREMIUM CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE EVENTUALZF" TelephonyType="TELEFONIA MOVIL">IPHONE EVENTUAL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PRUEBAS</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB COBERTURA" TelephonyType="TELEFONIA FIJA">COBERTURA</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 750" TelephonyType="TELEFONIA MOVIL">BAM 750</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLATINUM CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 1500 ZF" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 1500 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G EVENTUAL ZF" TelephonyType="PLAN DE DATOS">BAM 3G EVENTUAL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 1500 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 1500ZF</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLAN ANULACION MOVIL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP200" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 200</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 FIJA" TelephonyType="TELEFONIA FIJA">HABLA SIN PARAR</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 BAM ZF" TelephonyType="PLAN DE DATOS">BAM 3G AVANZADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PLUS BAM</Cos>
+<Cos CallFactor="1" CosType="SEGUNDOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PLUS ZF</Cos>
+<Cos CallFactor="1" CosType="SEGUNDOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PLUS</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE MODERADO" TelephonyType="TELEFONIA MOVIL">IPHONE MODERADO</Cos>
+<Cos CallFactor="1" CosType="SEGUNDOS" PeriodicChargeName="RB RUMBA 412" TelephonyType="TELEFONIA MOVIL">RUMBA 412</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">TARIFICADOR ZF</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">PRE ACTIVO FIJA ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 450" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 450</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB NEXO 2 ZF" TelephonyType="TELEFONIA MOVIL">NEXO 2 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G EVENTUAL" TelephonyType="PLAN DE DATOS">BAM 3G EVENTUAL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G 10GB" TelephonyType="PLAN DE DATOS">BAM 3G 10GB</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">CDLL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">CALLING CARD</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">FIJO CONTROL SUPER</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">FIJO CONTROL PLUS ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 1000" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 1000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB INTERNET MOVIL ZF" TelephonyType="TELEFONIA MOVIL">INTERNET MOVIL 4G 1.5 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLATINUM CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP3000" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 3000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP200 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 200 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB FIJO 412 ZF" TelephonyType="TELEFONIA FIJA">FIJO 412 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">FIJO CONTROL PLUS</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BB PLAN ILIMZF" TelephonyType="TELEFONIA MOVIL">BLACKBERRY ILIMITADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G MODERADOZF" TelephonyType="PLAN DE DATOS">BAM 3G MODERADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB NEXO 2" TelephonyType="TELEFONIA MOVIL">NEXO 2</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE MODERADOZF" TelephonyType="TELEFONIA MOVIL">IPHONE MODERADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">TARIFICADOR</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">CDLL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 18000" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 18000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 1250" TelephonyType="TELEFONIA MOVIL">BAM 1250</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP300 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 300 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PREMIUM CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G FRECUENTE" TelephonyType="PLAN DE DATOS">BAM 3G FRECUENTE</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 MOVIL ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 600 ZF</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">PRE ACTIVO FIJA</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 550 ZF" TelephonyType="TELEFONIA MOVIL">BAM 550 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 MOVIL" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 600</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA PUBLICA">SOCIAL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 87000 ZF" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 87000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP50 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 50 ZF</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLAN ANULACION MOVIL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 2000 ZF" TelephonyType="TELEFONIA MOVIL">BAM 2000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MEGA CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G FRECUENTEZF" TelephonyType="PLAN DE DATOS">BAM 3G FRECUENTE ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB INTERNET MOVIL" TelephonyType="TELEFONIA MOVIL">INTERNET MOVIL 4G 1.5</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLUS CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE EVENTUAL" TelephonyType="TELEFONIA MOVIL">IPHONE EVENTUAL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 1500" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 1500</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 850" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 850</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 FIJA ZF" TelephonyType="TELEFONIA FIJA">HABLA SIN PARAR ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PLUS BAM ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MEGA PLUS CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MICROEMPRESA CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 BAM" TelephonyType="PLAN DE DATOS">BAM 3G AVANZADO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP ILIMITADO" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO ILIMITADO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB FIJO 412" TelephonyType="TELEFONIA FIJA">FIJO 412</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">FIJO CONTROL SUPER ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 500" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 500</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">RADICALL FIJO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE AVANZADOZF" TelephonyType="TELEFONIA MOVIL">IPHONE AVANZADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP100" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 100</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 87000" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 87000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB GREMIAL ZF" TelephonyType="TELEFONIA MOVIL">GREMIAL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">RADICALL FIJO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MEGA CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G EXPERTOZF" TelephonyType="PLAN DE DATOS">BAM 3G EXPERTO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">SUPER CONTROL</Cos>
+<Cos CallFactor="1" CosType="SEGUNDOS" PeriodicChargeName="RB RUMBA 412 ZF" TelephonyType="TELEFONIA MOVIL">RUMBA 412 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP300" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 300</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 750 ZF" TelephonyType="TELEFONIA MOVIL">BAM 750 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 450 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 450ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">SUPER CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB COBERTURA ZF" TelephonyType="TELEFONIA FIJA">COBERTURA ZF</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="PLAN DE DATOS">PLAN ANULACION BAM</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB INTERNET MOVIL" TelephonyType="TELEFONIA MOVIL">INTERNET LTE 3GB CORP</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BB PLAN ILIM" TelephonyType="TELEFONIA MOVIL">BLACKBERRY ILIMITADO</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PRE ACTIVO MOVIL</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="PLAN DE DATOS">PRE ACTIVO BAM</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 500 ZF" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 500 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 1000 ZF" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 1000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB INTERNET MOVIL ZF" TelephonyType="TELEFONIA MOVIL">INTERNET LTE 3GB CORP ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP ILIMITADO ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO ILIMITADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP DISTRIBUIDOR" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 3000 DIST</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MICROEMPRESA CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G 10GBZF" TelephonyType="PLAN DE DATOS">BAM 3G 10GB ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP DISTRIBUIDOR" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 3000 DIST ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 48000 ZF" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 48000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">INTER</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">PLAN ANULACION FIJA</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA PUBLICA">TELEFONIA PUBLICA</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PRUEBA CACHE</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE AVANZADO" TelephonyType="TELEFONIA MOVIL">IPHONE AVANZADO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB GREMIAL" TelephonyType="TELEFONIA MOVIL">GREMIAL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 1250 ZF" TelephonyType="TELEFONIA MOVIL">BAM 1250 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 850 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 850ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP100 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 100 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MEGA PLUS CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 2000" TelephonyType="TELEFONIA MOVIL">BAM 2000</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">PLAN ANULACION FIJA ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 1500" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 1500</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="PLAN DE DATOS">PLAN ANULACION BAM ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP3000 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 3000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLUS CONTROL ZF</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PRE ACTIVO MOVIL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP1200 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 1200 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP1200" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 1200</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">SYS_DEFAULT_PLAN</Cos>
+</PeriodicCharge>
+
+]
+[2015Sep11 15:01:08,108][DEBUG][1441999865628][load CosMinSegData.java:41][Data obtenida del servicio Planes MinSegundos <PeriodicCharge>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 48000" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 48000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G EXPERTO" TelephonyType="PLAN DE DATOS">BAM 3G EXPERTO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 550" TelephonyType="TELEFONIA MOVIL">BAM 550</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 18000 ZF" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 18000 ZF</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="PLAN DE DATOS">PRE ACTIVO BAM ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G MODERADO" TelephonyType="PLAN DE DATOS">BAM 3G MODERADO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP50" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 50</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PREMIUM CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE EVENTUALZF" TelephonyType="TELEFONIA MOVIL">IPHONE EVENTUAL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PRUEBAS</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB COBERTURA" TelephonyType="TELEFONIA FIJA">COBERTURA</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 750" TelephonyType="TELEFONIA MOVIL">BAM 750</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLATINUM CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 1500 ZF" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 1500 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G EVENTUAL ZF" TelephonyType="PLAN DE DATOS">BAM 3G EVENTUAL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 1500 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 1500ZF</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLAN ANULACION MOVIL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP200" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 200</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 FIJA" TelephonyType="TELEFONIA FIJA">HABLA SIN PARAR</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 BAM ZF" TelephonyType="PLAN DE DATOS">BAM 3G AVANZADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PLUS BAM</Cos>
+<Cos CallFactor="1" CosType="SEGUNDOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PLUS ZF</Cos>
+<Cos CallFactor="1" CosType="SEGUNDOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PLUS</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE MODERADO" TelephonyType="TELEFONIA MOVIL">IPHONE MODERADO</Cos>
+<Cos CallFactor="1" CosType="SEGUNDOS" PeriodicChargeName="RB RUMBA 412" TelephonyType="TELEFONIA MOVIL">RUMBA 412</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">TARIFICADOR ZF</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">PRE ACTIVO FIJA ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 450" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 450</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB NEXO 2 ZF" TelephonyType="TELEFONIA MOVIL">NEXO 2 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G EVENTUAL" TelephonyType="PLAN DE DATOS">BAM 3G EVENTUAL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G 10GB" TelephonyType="PLAN DE DATOS">BAM 3G 10GB</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">CDLL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">CALLING CARD</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">FIJO CONTROL SUPER</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">FIJO CONTROL PLUS ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 1000" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 1000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB INTERNET MOVIL ZF" TelephonyType="TELEFONIA MOVIL">INTERNET MOVIL 4G 1.5 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLATINUM CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP3000" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 3000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP200 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 200 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB FIJO 412 ZF" TelephonyType="TELEFONIA FIJA">FIJO 412 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">FIJO CONTROL PLUS</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BB PLAN ILIMZF" TelephonyType="TELEFONIA MOVIL">BLACKBERRY ILIMITADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G MODERADOZF" TelephonyType="PLAN DE DATOS">BAM 3G MODERADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB NEXO 2" TelephonyType="TELEFONIA MOVIL">NEXO 2</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE MODERADOZF" TelephonyType="TELEFONIA MOVIL">IPHONE MODERADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">TARIFICADOR</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">CDLL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 18000" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 18000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 1250" TelephonyType="TELEFONIA MOVIL">BAM 1250</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP300 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 300 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PREMIUM CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G FRECUENTE" TelephonyType="PLAN DE DATOS">BAM 3G FRECUENTE</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 MOVIL ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 600 ZF</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">PRE ACTIVO FIJA</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 550 ZF" TelephonyType="TELEFONIA MOVIL">BAM 550 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 MOVIL" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 600</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA PUBLICA">SOCIAL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 87000 ZF" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 87000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP50 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 50 ZF</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLAN ANULACION MOVIL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 2000 ZF" TelephonyType="TELEFONIA MOVIL">BAM 2000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MEGA CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G FRECUENTEZF" TelephonyType="PLAN DE DATOS">BAM 3G FRECUENTE ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB INTERNET MOVIL" TelephonyType="TELEFONIA MOVIL">INTERNET MOVIL 4G 1.5</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLUS CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE EVENTUAL" TelephonyType="TELEFONIA MOVIL">IPHONE EVENTUAL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 1500" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 1500</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 850" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 850</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 FIJA ZF" TelephonyType="TELEFONIA FIJA">HABLA SIN PARAR ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PLUS BAM ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MEGA PLUS CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MICROEMPRESA CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 BAM" TelephonyType="PLAN DE DATOS">BAM 3G AVANZADO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP ILIMITADO" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO ILIMITADO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB FIJO 412" TelephonyType="TELEFONIA FIJA">FIJO 412</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">FIJO CONTROL SUPER ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 500" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 500</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">RADICALL FIJO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE AVANZADOZF" TelephonyType="TELEFONIA MOVIL">IPHONE AVANZADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP100" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 100</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 87000" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 87000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB GREMIAL ZF" TelephonyType="TELEFONIA MOVIL">GREMIAL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">RADICALL FIJO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MEGA CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G EXPERTOZF" TelephonyType="PLAN DE DATOS">BAM 3G EXPERTO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">SUPER CONTROL</Cos>
+<Cos CallFactor="1" CosType="SEGUNDOS" PeriodicChargeName="RB RUMBA 412 ZF" TelephonyType="TELEFONIA MOVIL">RUMBA 412 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP300" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 300</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 750 ZF" TelephonyType="TELEFONIA MOVIL">BAM 750 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 450 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 450ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">SUPER CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB COBERTURA ZF" TelephonyType="TELEFONIA FIJA">COBERTURA ZF</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="PLAN DE DATOS">PLAN ANULACION BAM</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB INTERNET MOVIL" TelephonyType="TELEFONIA MOVIL">INTERNET LTE 3GB CORP</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BB PLAN ILIM" TelephonyType="TELEFONIA MOVIL">BLACKBERRY ILIMITADO</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PRE ACTIVO MOVIL</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="PLAN DE DATOS">PRE ACTIVO BAM</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 500 ZF" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 500 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 1000 ZF" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 1000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB INTERNET MOVIL ZF" TelephonyType="TELEFONIA MOVIL">INTERNET LTE 3GB CORP ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP ILIMITADO ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO ILIMITADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP DISTRIBUIDOR" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 3000 DIST</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MICROEMPRESA CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G 10GBZF" TelephonyType="PLAN DE DATOS">BAM 3G 10GB ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP DISTRIBUIDOR" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 3000 DIST ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 48000 ZF" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 48000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">INTER</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">PLAN ANULACION FIJA</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA PUBLICA">TELEFONIA PUBLICA</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PRUEBA CACHE</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE AVANZADO" TelephonyType="TELEFONIA MOVIL">IPHONE AVANZADO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB GREMIAL" TelephonyType="TELEFONIA MOVIL">GREMIAL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 1250 ZF" TelephonyType="TELEFONIA MOVIL">BAM 1250 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 850 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 850ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP100 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 100 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MEGA PLUS CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 2000" TelephonyType="TELEFONIA MOVIL">BAM 2000</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">PLAN ANULACION FIJA ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 1500" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 1500</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="PLAN DE DATOS">PLAN ANULACION BAM ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP3000 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 3000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLUS CONTROL ZF</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PRE ACTIVO MOVIL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP1200 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 1200 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP1200" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 1200</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">SYS_DEFAULT_PLAN</Cos>
+</PeriodicCharge>]
+[2015Sep11 15:01:08,113][DEBUG][1441999865628][add_xml CosMinSegData.java:80][Recibiendo XML de Planes en MIN y SEGUNDOS<PeriodicCharge>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 48000" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 48000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G EXPERTO" TelephonyType="PLAN DE DATOS">BAM 3G EXPERTO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 550" TelephonyType="TELEFONIA MOVIL">BAM 550</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 18000 ZF" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 18000 ZF</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="PLAN DE DATOS">PRE ACTIVO BAM ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G MODERADO" TelephonyType="PLAN DE DATOS">BAM 3G MODERADO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP50" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 50</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PREMIUM CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE EVENTUALZF" TelephonyType="TELEFONIA MOVIL">IPHONE EVENTUAL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PRUEBAS</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB COBERTURA" TelephonyType="TELEFONIA FIJA">COBERTURA</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 750" TelephonyType="TELEFONIA MOVIL">BAM 750</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLATINUM CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 1500 ZF" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 1500 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G EVENTUAL ZF" TelephonyType="PLAN DE DATOS">BAM 3G EVENTUAL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 1500 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 1500ZF</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLAN ANULACION MOVIL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP200" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 200</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 FIJA" TelephonyType="TELEFONIA FIJA">HABLA SIN PARAR</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 BAM ZF" TelephonyType="PLAN DE DATOS">BAM 3G AVANZADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PLUS BAM</Cos>
+<Cos CallFactor="1" CosType="SEGUNDOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PLUS ZF</Cos>
+<Cos CallFactor="1" CosType="SEGUNDOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PLUS</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE MODERADO" TelephonyType="TELEFONIA MOVIL">IPHONE MODERADO</Cos>
+<Cos CallFactor="1" CosType="SEGUNDOS" PeriodicChargeName="RB RUMBA 412" TelephonyType="TELEFONIA MOVIL">RUMBA 412</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">TARIFICADOR ZF</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">PRE ACTIVO FIJA ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 450" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 450</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB NEXO 2 ZF" TelephonyType="TELEFONIA MOVIL">NEXO 2 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G EVENTUAL" TelephonyType="PLAN DE DATOS">BAM 3G EVENTUAL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G 10GB" TelephonyType="PLAN DE DATOS">BAM 3G 10GB</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">CDLL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">CALLING CARD</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">FIJO CONTROL SUPER</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">FIJO CONTROL PLUS ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 1000" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 1000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB INTERNET MOVIL ZF" TelephonyType="TELEFONIA MOVIL">INTERNET MOVIL 4G 1.5 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLATINUM CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP3000" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 3000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP200 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 200 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB FIJO 412 ZF" TelephonyType="TELEFONIA FIJA">FIJO 412 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">FIJO CONTROL PLUS</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BB PLAN ILIMZF" TelephonyType="TELEFONIA MOVIL">BLACKBERRY ILIMITADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G MODERADOZF" TelephonyType="PLAN DE DATOS">BAM 3G MODERADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB NEXO 2" TelephonyType="TELEFONIA MOVIL">NEXO 2</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE MODERADOZF" TelephonyType="TELEFONIA MOVIL">IPHONE MODERADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">TARIFICADOR</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">CDLL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 18000" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 18000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 1250" TelephonyType="TELEFONIA MOVIL">BAM 1250</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP300 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 300 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PREMIUM CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G FRECUENTE" TelephonyType="PLAN DE DATOS">BAM 3G FRECUENTE</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 MOVIL ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 600 ZF</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">PRE ACTIVO FIJA</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 550 ZF" TelephonyType="TELEFONIA MOVIL">BAM 550 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 MOVIL" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 600</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA PUBLICA">SOCIAL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 87000 ZF" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 87000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP50 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 50 ZF</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLAN ANULACION MOVIL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 2000 ZF" TelephonyType="TELEFONIA MOVIL">BAM 2000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MEGA CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G FRECUENTEZF" TelephonyType="PLAN DE DATOS">BAM 3G FRECUENTE ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB INTERNET MOVIL" TelephonyType="TELEFONIA MOVIL">INTERNET MOVIL 4G 1.5</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLUS CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE EVENTUAL" TelephonyType="TELEFONIA MOVIL">IPHONE EVENTUAL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 1500" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 1500</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 850" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 850</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 FIJA ZF" TelephonyType="TELEFONIA FIJA">HABLA SIN PARAR ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">RADICALL PLUS BAM ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MEGA PLUS CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MICROEMPRESA CONTROL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="SRB PROMO 0 BAM" TelephonyType="PLAN DE DATOS">BAM 3G AVANZADO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP ILIMITADO" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO ILIMITADO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB FIJO 412" TelephonyType="TELEFONIA FIJA">FIJO 412</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">FIJO CONTROL SUPER ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 500" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 500</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">RADICALL FIJO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE AVANZADOZF" TelephonyType="TELEFONIA MOVIL">IPHONE AVANZADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP100" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 100</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 87000" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 87000</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB GREMIAL ZF" TelephonyType="TELEFONIA MOVIL">GREMIAL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">RADICALL FIJO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MEGA CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G EXPERTOZF" TelephonyType="PLAN DE DATOS">BAM 3G EXPERTO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">SUPER CONTROL</Cos>
+<Cos CallFactor="1" CosType="SEGUNDOS" PeriodicChargeName="RB RUMBA 412 ZF" TelephonyType="TELEFONIA MOVIL">RUMBA 412 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP300" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 300</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 750 ZF" TelephonyType="TELEFONIA MOVIL">BAM 750 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 450 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 450ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">SUPER CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB COBERTURA ZF" TelephonyType="TELEFONIA FIJA">COBERTURA ZF</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="PLAN DE DATOS">PLAN ANULACION BAM</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB INTERNET MOVIL" TelephonyType="TELEFONIA MOVIL">INTERNET LTE 3GB CORP</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BB PLAN ILIM" TelephonyType="TELEFONIA MOVIL">BLACKBERRY ILIMITADO</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PRE ACTIVO MOVIL</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="PLAN DE DATOS">PRE ACTIVO BAM</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 500 ZF" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 500 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SMART 1000 ZF" TelephonyType="TELEFONIA MOVIL">INTELIGENTE 1000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB INTERNET MOVIL ZF" TelephonyType="TELEFONIA MOVIL">INTERNET LTE 3GB CORP ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP ILIMITADO ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO ILIMITADO ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP DISTRIBUIDOR" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 3000 DIST</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MICROEMPRESA CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM3G 10GBZF" TelephonyType="PLAN DE DATOS">BAM 3G 10GB ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP DISTRIBUIDOR" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 3000 DIST ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB EMPRESA 48000 ZF" TelephonyType="TELEFONIA MOVIL">EMPRESARIAL 48000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">INTER</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">PLAN ANULACION FIJA</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA PUBLICA">TELEFONIA PUBLICA</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PRUEBA CACHE</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB IPHONE AVANZADO" TelephonyType="TELEFONIA MOVIL">IPHONE AVANZADO</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB GREMIAL" TelephonyType="TELEFONIA MOVIL">GREMIAL</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 1250 ZF" TelephonyType="TELEFONIA MOVIL">BAM 1250 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 850 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 850ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP100 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 100 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">MEGA PLUS CONTROL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB BAM 2000" TelephonyType="TELEFONIA MOVIL">BAM 2000</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA FIJA">PLAN ANULACION FIJA ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP PLUS 1500" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO PLUS 1500</Cos>
+<Cos CallFactor="998" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="PLAN DE DATOS">PLAN ANULACION BAM ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP3000 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 3000 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PLUS CONTROL ZF</Cos>
+<Cos CallFactor="999" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">PRE ACTIVO MOVIL ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP1200 ZF" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 1200 ZF</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="RB SP1200" TelephonyType="TELEFONIA MOVIL">SUPER PEGADO 1200</Cos>
+<Cos CallFactor="60" CosType="MINUTOS" PeriodicChargeName="" TelephonyType="TELEFONIA MOVIL">SYS_DEFAULT_PLAN</Cos>
+</PeriodicCharge>]
+[2015Sep11 15:01:08,357][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,359][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data EMPRESARIAL 48000    60]
+[2015Sep11 15:01:08,360][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,361][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 3G EXPERTO    60]
+[2015Sep11 15:01:08,363][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,364][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 550    60]
+[2015Sep11 15:01:08,365][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,366][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data EMPRESARIAL 18000 ZF    60]
+[2015Sep11 15:01:08,368][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,369][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PRE ACTIVO BAM ZF    999]
+[2015Sep11 15:01:08,370][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,371][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 3G MODERADO    60]
+[2015Sep11 15:01:08,373][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,374][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 50    60]
+[2015Sep11 15:01:08,375][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,376][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PREMIUM CONTROL ZF    60]
+[2015Sep11 15:01:08,377][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,379][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data IPHONE EVENTUAL ZF    60]
+[2015Sep11 15:01:08,380][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,381][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data RADICALL PRUEBAS    60]
+[2015Sep11 15:01:08,382][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,384][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data COBERTURA    60]
+[2015Sep11 15:01:08,385][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,386][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 750    60]
+[2015Sep11 15:01:08,387][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,389][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PLATINUM CONTROL ZF    60]
+[2015Sep11 15:01:08,390][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,391][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data INTELIGENTE 1500 ZF    60]
+[2015Sep11 15:01:08,392][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,393][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 3G EVENTUAL ZF    60]
+[2015Sep11 15:01:08,395][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,396][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO PLUS 1500ZF    60]
+[2015Sep11 15:01:08,397][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,398][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PLAN ANULACION MOVIL    998]
+[2015Sep11 15:01:08,400][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,401][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 200    60]
+[2015Sep11 15:01:08,402][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,403][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data HABLA SIN PARAR    60]
+[2015Sep11 15:01:08,405][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,406][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 3G AVANZADO ZF    60]
+[2015Sep11 15:01:08,407][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,409][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data RADICALL PLUS BAM    60]
+[2015Sep11 15:01:08,410][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,411][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data RADICALL PLUS ZF    1]
+[2015Sep11 15:01:08,412][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,414][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data RADICALL PLUS    1]
+[2015Sep11 15:01:08,415][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,416][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data IPHONE MODERADO    60]
+[2015Sep11 15:01:08,417][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,418][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data RUMBA 412    1]
+[2015Sep11 15:01:08,420][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,421][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data TARIFICADOR ZF    60]
+[2015Sep11 15:01:08,422][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,423][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PRE ACTIVO FIJA ZF    999]
+[2015Sep11 15:01:08,425][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,426][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO PLUS 450    60]
+[2015Sep11 15:01:08,427][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,428][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data NEXO 2 ZF    60]
+[2015Sep11 15:01:08,430][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,431][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 3G EVENTUAL    60]
+[2015Sep11 15:01:08,432][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,433][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 3G 10GB    60]
+[2015Sep11 15:01:08,435][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,436][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data CDLL ZF    60]
+[2015Sep11 15:01:08,437][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,438][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data CALLING CARD    60]
+[2015Sep11 15:01:08,440][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,441][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data FIJO CONTROL SUPER    60]
+[2015Sep11 15:01:08,442][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,443][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data FIJO CONTROL PLUS ZF    60]
+[2015Sep11 15:01:08,444][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,446][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data INTELIGENTE 1000    60]
+[2015Sep11 15:01:08,447][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,448][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data INTERNET MOVIL 4G 1.5 ZF    60]
+[2015Sep11 15:01:08,449][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,451][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PLATINUM CONTROL    60]
+[2015Sep11 15:01:08,452][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,453][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 3000    60]
+[2015Sep11 15:01:08,454][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,456][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 200 ZF    60]
+[2015Sep11 15:01:08,457][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,458][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data FIJO 412 ZF    60]
+[2015Sep11 15:01:08,459][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,461][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data FIJO CONTROL PLUS    60]
+[2015Sep11 15:01:08,462][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,463][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BLACKBERRY ILIMITADO ZF    60]
+[2015Sep11 15:01:08,464][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,466][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 3G MODERADO ZF    60]
+[2015Sep11 15:01:08,467][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,468][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data NEXO 2    60]
+[2015Sep11 15:01:08,469][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,471][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data IPHONE MODERADO ZF    60]
+[2015Sep11 15:01:08,472][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,473][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data TARIFICADOR    60]
+[2015Sep11 15:01:08,474][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,476][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data CDLL    60]
+[2015Sep11 15:01:08,477][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,478][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data EMPRESARIAL 18000    60]
+[2015Sep11 15:01:08,479][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,481][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 1250    60]
+[2015Sep11 15:01:08,482][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,483][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 300 ZF    60]
+[2015Sep11 15:01:08,484][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,485][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PREMIUM CONTROL    60]
+[2015Sep11 15:01:08,487][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,488][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 3G FRECUENTE    60]
+[2015Sep11 15:01:08,489][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,490][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 600 ZF    60]
+[2015Sep11 15:01:08,492][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,493][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PRE ACTIVO FIJA    999]
+[2015Sep11 15:01:08,494][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,495][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 550 ZF    60]
+[2015Sep11 15:01:08,497][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,498][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 600    60]
+[2015Sep11 15:01:08,499][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,500][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SOCIAL    60]
+[2015Sep11 15:01:08,502][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,503][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data EMPRESARIAL 87000 ZF    60]
+[2015Sep11 15:01:08,504][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,506][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 50 ZF    60]
+[2015Sep11 15:01:08,507][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,508][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PLAN ANULACION MOVIL ZF    998]
+[2015Sep11 15:01:08,509][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,511][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 2000 ZF    60]
+[2015Sep11 15:01:08,512][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,513][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data MEGA CONTROL    60]
+[2015Sep11 15:01:08,514][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,516][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 3G FRECUENTE ZF    60]
+[2015Sep11 15:01:08,517][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,518][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data INTERNET MOVIL 4G 1.5    60]
+[2015Sep11 15:01:08,519][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,521][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PLUS CONTROL    60]
+[2015Sep11 15:01:08,522][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,523][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data IPHONE EVENTUAL    60]
+[2015Sep11 15:01:08,524][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,526][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data INTELIGENTE 1500    60]
+[2015Sep11 15:01:08,527][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,528][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO PLUS 850    60]
+[2015Sep11 15:01:08,529][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,530][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data HABLA SIN PARAR ZF    60]
+[2015Sep11 15:01:08,532][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,533][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data RADICALL PLUS BAM ZF    60]
+[2015Sep11 15:01:08,534][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,535][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data MEGA PLUS CONTROL    60]
+[2015Sep11 15:01:08,537][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,538][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data MICROEMPRESA CONTROL    60]
+[2015Sep11 15:01:08,539][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,540][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 3G AVANZADO    60]
+[2015Sep11 15:01:08,542][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,543][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO ILIMITADO    60]
+[2015Sep11 15:01:08,544][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,545][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data FIJO 412    60]
+[2015Sep11 15:01:08,547][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,548][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data FIJO CONTROL SUPER ZF    60]
+[2015Sep11 15:01:08,549][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,550][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data INTELIGENTE 500    60]
+[2015Sep11 15:01:08,552][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,553][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data RADICALL FIJO ZF    60]
+[2015Sep11 15:01:08,554][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,555][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data IPHONE AVANZADO ZF    60]
+[2015Sep11 15:01:08,557][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,558][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 100    60]
+[2015Sep11 15:01:08,559][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,560][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data EMPRESARIAL 87000    60]
+[2015Sep11 15:01:08,562][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,563][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data GREMIAL ZF    60]
+[2015Sep11 15:01:08,564][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,565][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data RADICALL FIJO    60]
+[2015Sep11 15:01:08,567][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,568][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data MEGA CONTROL ZF    60]
+[2015Sep11 15:01:08,569][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,570][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 3G EXPERTO ZF    60]
+[2015Sep11 15:01:08,572][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,573][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER CONTROL    60]
+[2015Sep11 15:01:08,574][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,575][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data RUMBA 412 ZF    1]
+[2015Sep11 15:01:08,576][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,578][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 300    60]
+[2015Sep11 15:01:08,579][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,580][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 750 ZF    60]
+[2015Sep11 15:01:08,581][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,583][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO PLUS 450ZF    60]
+[2015Sep11 15:01:08,584][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,585][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER CONTROL ZF    60]
+[2015Sep11 15:01:08,586][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,588][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data COBERTURA ZF    60]
+[2015Sep11 15:01:08,589][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,590][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PLAN ANULACION BAM    998]
+[2015Sep11 15:01:08,591][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,593][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data INTERNET LTE 3GB CORP    60]
+[2015Sep11 15:01:08,594][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,595][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BLACKBERRY ILIMITADO    60]
+[2015Sep11 15:01:08,596][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,598][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PRE ACTIVO MOVIL    999]
+[2015Sep11 15:01:08,599][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,600][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PRE ACTIVO BAM    999]
+[2015Sep11 15:01:08,601][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,603][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data INTELIGENTE 500 ZF    60]
+[2015Sep11 15:01:08,604][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,605][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data INTELIGENTE 1000 ZF    60]
+[2015Sep11 15:01:08,606][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,608][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data INTERNET LTE 3GB CORP ZF    60]
+[2015Sep11 15:01:08,609][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,610][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO ILIMITADO ZF    60]
+[2015Sep11 15:01:08,611][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,613][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 3000 DIST    60]
+[2015Sep11 15:01:08,614][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,615][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data MICROEMPRESA CONTROL ZF    60]
+[2015Sep11 15:01:08,616][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,618][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 3G 10GB ZF    60]
+[2015Sep11 15:01:08,619][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,620][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 3000 DIST ZF    60]
+[2015Sep11 15:01:08,621][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,623][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data EMPRESARIAL 48000 ZF    60]
+[2015Sep11 15:01:08,624][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,625][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data INTER    60]
+[2015Sep11 15:01:08,626][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,628][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PLAN ANULACION FIJA    998]
+[2015Sep11 15:01:08,629][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,630][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data TELEFONIA PUBLICA    60]
+[2015Sep11 15:01:08,631][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,632][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PRUEBA CACHE    60]
+[2015Sep11 15:01:08,634][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,635][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data IPHONE AVANZADO    60]
+[2015Sep11 15:01:08,636][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,637][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data GREMIAL    60]
+[2015Sep11 15:01:08,639][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,640][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 1250 ZF    60]
+[2015Sep11 15:01:08,641][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,642][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO PLUS 850ZF    60]
+[2015Sep11 15:01:08,644][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,645][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 100 ZF    60]
+[2015Sep11 15:01:08,646][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,647][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data MEGA PLUS CONTROL ZF    60]
+[2015Sep11 15:01:08,649][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,650][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data BAM 2000    60]
+[2015Sep11 15:01:08,651][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,652][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PLAN ANULACION FIJA ZF    998]
+[2015Sep11 15:01:08,654][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,655][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO PLUS 1500    60]
+[2015Sep11 15:01:08,656][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,657][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PLAN ANULACION BAM ZF    998]
+[2015Sep11 15:01:08,659][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,660][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 3000 ZF    60]
+[2015Sep11 15:01:08,661][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,662][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PLUS CONTROL ZF    60]
+[2015Sep11 15:01:08,664][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,665][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data PRE ACTIVO MOVIL ZF    999]
+[2015Sep11 15:01:08,666][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,667][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 1200 ZF    60]
+[2015Sep11 15:01:08,669][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,670][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SUPER PEGADO 1200    60]
+[2015Sep11 15:01:08,671][INFO ][1441999865628][add_xml CosMinSegData.java:90][Cagando planes en MIN/SEG]
+[2015Sep11 15:01:08,672][DEBUG][1441999865628][add_xml CosMinSegData.java:93][Data SYS_DEFAULT_PLAN    60]
+[2015Sep11 15:01:08,674][INFO ][1441999865628][add_xml CosMinSegData.java:98][Cagando planes en MIN/SEG con exito]
+[2015Sep11 15:01:08,675][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,676][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->EMPRESARIAL 48000<-    ->RB EMPRESA 48000<-]
+[2015Sep11 15:01:08,678][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,679][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 3G EXPERTO<-    ->RB BAM3G EXPERTO<-]
+[2015Sep11 15:01:08,680][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,681][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 550<-    ->RB BAM 550<-]
+[2015Sep11 15:01:08,683][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,684][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->EMPRESARIAL 18000 ZF<-    ->RB EMPRESA 18000 ZF<-]
+[2015Sep11 15:01:08,685][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,686][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PRE ACTIVO BAM ZF<-    -><-]
+[2015Sep11 15:01:08,688][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,689][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 3G MODERADO<-    ->RB BAM3G MODERADO<-]
+[2015Sep11 15:01:08,690][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,691][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 50<-    ->RB SP50<-]
+[2015Sep11 15:01:08,693][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,694][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PREMIUM CONTROL ZF<-    -><-]
+[2015Sep11 15:01:08,695][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,696][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->IPHONE EVENTUAL ZF<-    ->RB IPHONE EVENTUALZF<-]
+[2015Sep11 15:01:08,698][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,699][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->RADICALL PRUEBAS<-    -><-]
+[2015Sep11 15:01:08,700][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,701][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->COBERTURA<-    ->RB COBERTURA<-]
+[2015Sep11 15:01:08,703][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,704][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 750<-    ->RB BAM 750<-]
+[2015Sep11 15:01:08,705][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,706][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PLATINUM CONTROL ZF<-    -><-]
+[2015Sep11 15:01:08,708][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,709][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->INTELIGENTE 1500 ZF<-    ->RB SMART 1500 ZF<-]
+[2015Sep11 15:01:08,710][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,711][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 3G EVENTUAL ZF<-    ->RB BAM3G EVENTUAL ZF<-]
+[2015Sep11 15:01:08,713][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,714][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO PLUS 1500ZF<-    ->RB SP PLUS 1500 ZF<-]
+[2015Sep11 15:01:08,715][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,716][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PLAN ANULACION MOVIL<-    -><-]
+[2015Sep11 15:01:08,718][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,719][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 200<-    ->RB SP200<-]
+[2015Sep11 15:01:08,720][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,721][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->HABLA SIN PARAR<-    ->SRB PROMO 0 FIJA<-]
+[2015Sep11 15:01:08,723][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,724][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 3G AVANZADO ZF<-    ->SRB PROMO 0 BAM ZF<-]
+[2015Sep11 15:01:08,725][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,726][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->RADICALL PLUS BAM<-    -><-]
+[2015Sep11 15:01:08,728][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,729][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->RADICALL PLUS ZF<-    -><-]
+[2015Sep11 15:01:08,730][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,731][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->RADICALL PLUS<-    -><-]
+[2015Sep11 15:01:08,733][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,734][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->IPHONE MODERADO<-    ->RB IPHONE MODERADO<-]
+[2015Sep11 15:01:08,735][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,736][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->RUMBA 412<-    ->RB RUMBA 412<-]
+[2015Sep11 15:01:08,738][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,739][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->TARIFICADOR ZF<-    -><-]
+[2015Sep11 15:01:08,740][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,741][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PRE ACTIVO FIJA ZF<-    -><-]
+[2015Sep11 15:01:08,743][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,744][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO PLUS 450<-    ->RB SP PLUS 450<-]
+[2015Sep11 15:01:08,745][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,746][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->NEXO 2 ZF<-    ->RB NEXO 2 ZF<-]
+[2015Sep11 15:01:08,748][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,749][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 3G EVENTUAL<-    ->RB BAM3G EVENTUAL<-]
+[2015Sep11 15:01:08,750][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,751][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 3G 10GB<-    ->RB BAM3G 10GB<-]
+[2015Sep11 15:01:08,753][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,754][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->CDLL ZF<-    -><-]
+[2015Sep11 15:01:08,755][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,756][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->CALLING CARD<-    -><-]
+[2015Sep11 15:01:08,758][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,759][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->FIJO CONTROL SUPER<-    -><-]
+[2015Sep11 15:01:08,760][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,761][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->FIJO CONTROL PLUS ZF<-    -><-]
+[2015Sep11 15:01:08,763][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,764][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->INTELIGENTE 1000<-    ->RB SMART 1000<-]
+[2015Sep11 15:01:08,765][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,766][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->INTERNET MOVIL 4G 1.5 ZF<-    ->RB INTERNET MOVIL ZF<-]
+[2015Sep11 15:01:08,768][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,769][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PLATINUM CONTROL<-    -><-]
+[2015Sep11 15:01:08,770][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,771][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 3000<-    ->RB SP3000<-]
+[2015Sep11 15:01:08,773][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,774][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 200 ZF<-    ->RB SP200 ZF<-]
+[2015Sep11 15:01:08,775][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,776][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->FIJO 412 ZF<-    ->RB FIJO 412 ZF<-]
+[2015Sep11 15:01:08,778][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,779][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->FIJO CONTROL PLUS<-    -><-]
+[2015Sep11 15:01:08,780][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,781][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BLACKBERRY ILIMITADO ZF<-    ->RB BB PLAN ILIMZF<-]
+[2015Sep11 15:01:08,783][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,784][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 3G MODERADO ZF<-    ->RB BAM3G MODERADOZF<-]
+[2015Sep11 15:01:08,785][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,786][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->NEXO 2<-    ->RB NEXO 2<-]
+[2015Sep11 15:01:08,788][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,789][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->IPHONE MODERADO ZF<-    ->RB IPHONE MODERADOZF<-]
+[2015Sep11 15:01:08,790][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,791][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->TARIFICADOR<-    -><-]
+[2015Sep11 15:01:08,793][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,794][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->CDLL<-    -><-]
+[2015Sep11 15:01:08,795][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,796][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->EMPRESARIAL 18000<-    ->RB EMPRESA 18000<-]
+[2015Sep11 15:01:08,798][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,799][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 1250<-    ->RB BAM 1250<-]
+[2015Sep11 15:01:08,800][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,801][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 300 ZF<-    ->RB SP300 ZF<-]
+[2015Sep11 15:01:08,803][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,804][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PREMIUM CONTROL<-    -><-]
+[2015Sep11 15:01:08,805][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,806][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 3G FRECUENTE<-    ->RB BAM3G FRECUENTE<-]
+[2015Sep11 15:01:08,808][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,809][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 600 ZF<-    ->SRB PROMO 0 MOVIL ZF<-]
+[2015Sep11 15:01:08,810][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,811][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PRE ACTIVO FIJA<-    -><-]
+[2015Sep11 15:01:08,813][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,814][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 550 ZF<-    ->RB BAM 550 ZF<-]
+[2015Sep11 15:01:08,815][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,817][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 600<-    ->SRB PROMO 0 MOVIL<-]
+[2015Sep11 15:01:08,818][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,819][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SOCIAL<-    -><-]
+[2015Sep11 15:01:08,820][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,822][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->EMPRESARIAL 87000 ZF<-    ->RB EMPRESA 87000 ZF<-]
+[2015Sep11 15:01:08,823][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,824][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 50 ZF<-    ->RB SP50 ZF<-]
+[2015Sep11 15:01:08,825][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,827][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PLAN ANULACION MOVIL ZF<-    -><-]
+[2015Sep11 15:01:08,828][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,829][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 2000 ZF<-    ->RB BAM 2000 ZF<-]
+[2015Sep11 15:01:08,830][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,832][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->MEGA CONTROL<-    -><-]
+[2015Sep11 15:01:08,833][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,834][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 3G FRECUENTE ZF<-    ->RB BAM3G FRECUENTEZF<-]
+[2015Sep11 15:01:08,835][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,837][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->INTERNET MOVIL 4G 1.5<-    ->RB INTERNET MOVIL<-]
+[2015Sep11 15:01:08,838][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,839][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PLUS CONTROL<-    -><-]
+[2015Sep11 15:01:08,840][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,842][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->IPHONE EVENTUAL<-    ->RB IPHONE EVENTUAL<-]
+[2015Sep11 15:01:08,843][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,844][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->INTELIGENTE 1500<-    ->RB SMART 1500<-]
+[2015Sep11 15:01:08,845][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,847][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO PLUS 850<-    ->RB SP PLUS 850<-]
+[2015Sep11 15:01:08,848][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,849][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->HABLA SIN PARAR ZF<-    ->SRB PROMO 0 FIJA ZF<-]
+[2015Sep11 15:01:08,850][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,852][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->RADICALL PLUS BAM ZF<-    -><-]
+[2015Sep11 15:01:08,853][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,854][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->MEGA PLUS CONTROL<-    -><-]
+[2015Sep11 15:01:08,855][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,857][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->MICROEMPRESA CONTROL<-    -><-]
+[2015Sep11 15:01:08,858][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,859][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 3G AVANZADO<-    ->SRB PROMO 0 BAM<-]
+[2015Sep11 15:01:08,860][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,862][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO ILIMITADO<-    ->RB SP ILIMITADO<-]
+[2015Sep11 15:01:08,863][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,864][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->FIJO 412<-    ->RB FIJO 412<-]
+[2015Sep11 15:01:08,866][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,867][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->FIJO CONTROL SUPER ZF<-    -><-]
+[2015Sep11 15:01:08,868][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,869][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->INTELIGENTE 500<-    ->RB SMART 500<-]
+[2015Sep11 15:01:08,871][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,872][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->RADICALL FIJO ZF<-    -><-]
+[2015Sep11 15:01:08,873][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,874][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->IPHONE AVANZADO ZF<-    ->RB IPHONE AVANZADOZF<-]
+[2015Sep11 15:01:08,876][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,877][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 100<-    ->RB SP100<-]
+[2015Sep11 15:01:08,878][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,879][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->EMPRESARIAL 87000<-    ->RB EMPRESA 87000<-]
+[2015Sep11 15:01:08,881][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,882][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->GREMIAL ZF<-    ->RB GREMIAL ZF<-]
+[2015Sep11 15:01:08,883][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,884][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->RADICALL FIJO<-    -><-]
+[2015Sep11 15:01:08,886][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,887][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->MEGA CONTROL ZF<-    -><-]
+[2015Sep11 15:01:08,888][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,889][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 3G EXPERTO ZF<-    ->RB BAM3G EXPERTOZF<-]
+[2015Sep11 15:01:08,891][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,892][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER CONTROL<-    -><-]
+[2015Sep11 15:01:08,893][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,894][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->RUMBA 412 ZF<-    ->RB RUMBA 412 ZF<-]
+[2015Sep11 15:01:08,896][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,897][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 300<-    ->RB SP300<-]
+[2015Sep11 15:01:08,898][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,899][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 750 ZF<-    ->RB BAM 750 ZF<-]
+[2015Sep11 15:01:08,901][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,902][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO PLUS 450ZF<-    ->RB SP PLUS 450 ZF<-]
+[2015Sep11 15:01:08,903][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,904][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER CONTROL ZF<-    -><-]
+[2015Sep11 15:01:08,906][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,907][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->COBERTURA ZF<-    ->RB COBERTURA ZF<-]
+[2015Sep11 15:01:08,908][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,909][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PLAN ANULACION BAM<-    -><-]
+[2015Sep11 15:01:08,911][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,912][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->INTERNET LTE 3GB CORP<-    ->RB INTERNET MOVIL<-]
+[2015Sep11 15:01:08,913][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,914][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BLACKBERRY ILIMITADO<-    ->RB BB PLAN ILIM<-]
+[2015Sep11 15:01:08,916][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,917][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PRE ACTIVO MOVIL<-    -><-]
+[2015Sep11 15:01:08,918][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,919][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PRE ACTIVO BAM<-    -><-]
+[2015Sep11 15:01:08,921][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,922][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->INTELIGENTE 500 ZF<-    ->RB SMART 500 ZF<-]
+[2015Sep11 15:01:08,923][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,925][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->INTELIGENTE 1000 ZF<-    ->RB SMART 1000 ZF<-]
+[2015Sep11 15:01:08,926][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,927][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->INTERNET LTE 3GB CORP ZF<-    ->RB INTERNET MOVIL ZF<-]
+[2015Sep11 15:01:08,928][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,930][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO ILIMITADO ZF<-    ->RB SP ILIMITADO ZF<-]
+[2015Sep11 15:01:08,931][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,932][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 3000 DIST<-    ->RB SP DISTRIBUIDOR<-]
+[2015Sep11 15:01:08,933][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,935][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->MICROEMPRESA CONTROL ZF<-    -><-]
+[2015Sep11 15:01:08,936][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,937][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 3G 10GB ZF<-    ->RB BAM3G 10GBZF<-]
+[2015Sep11 15:01:08,938][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,940][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 3000 DIST ZF<-    ->RB SP DISTRIBUIDOR<-]
+[2015Sep11 15:01:08,941][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,942][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->EMPRESARIAL 48000 ZF<-    ->RB EMPRESA 48000 ZF<-]
+[2015Sep11 15:01:08,943][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,945][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->INTER<-    -><-]
+[2015Sep11 15:01:08,946][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,947][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PLAN ANULACION FIJA<-    -><-]
+[2015Sep11 15:01:08,948][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,950][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->TELEFONIA PUBLICA<-    -><-]
+[2015Sep11 15:01:08,951][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,952][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PRUEBA CACHE<-    -><-]
+[2015Sep11 15:01:08,953][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,955][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->IPHONE AVANZADO<-    ->RB IPHONE AVANZADO<-]
+[2015Sep11 15:01:08,956][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,957][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->GREMIAL<-    ->RB GREMIAL<-]
+[2015Sep11 15:01:08,958][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,960][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 1250 ZF<-    ->RB BAM 1250 ZF<-]
+[2015Sep11 15:01:08,961][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,962][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO PLUS 850ZF<-    ->RB SP PLUS 850 ZF<-]
+[2015Sep11 15:01:08,963][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,965][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 100 ZF<-    ->RB SP100 ZF<-]
+[2015Sep11 15:01:08,966][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,967][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->MEGA PLUS CONTROL ZF<-    -><-]
+[2015Sep11 15:01:08,968][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,970][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->BAM 2000<-    ->RB BAM 2000<-]
+[2015Sep11 15:01:08,971][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,972][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PLAN ANULACION FIJA ZF<-    -><-]
+[2015Sep11 15:01:08,973][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,975][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO PLUS 1500<-    ->RB SP PLUS 1500<-]
+[2015Sep11 15:01:08,976][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,977][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PLAN ANULACION BAM ZF<-    -><-]
+[2015Sep11 15:01:08,978][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,980][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 3000 ZF<-    ->RB SP3000 ZF<-]
+[2015Sep11 15:01:08,981][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,982][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PLUS CONTROL ZF<-    -><-]
+[2015Sep11 15:01:08,983][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,985][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->PRE ACTIVO MOVIL ZF<-    -><-]
+[2015Sep11 15:01:08,986][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,987][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 1200 ZF<-    ->RB SP1200 ZF<-]
+[2015Sep11 15:01:08,988][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,990][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SUPER PEGADO 1200<-    ->RB SP1200<-]
+[2015Sep11 15:01:08,991][DEBUG][1441999865628][add_xml CosMinSegData.java:103][Cagando PeriodicChargeID de planes]
+[2015Sep11 15:01:08,992][DEBUG][1441999865628][add_xml CosMinSegData.java:105][Data ->SYS_DEFAULT_PLAN<-    -><-]
+[2015Sep11 15:01:08,993][DEBUG][1441999865628][add_xml CosMinSegData.java:109][Cagando PeriodicChargeID de planes con exito]
+[2015Sep11 15:01:09,001][DEBUG][1441999865628][processRequest FCController.java:233][<?xml version="1.0" encoding="UTF-8"?>
+<RTBS_SCRS_IN>
+	<Channel>IVR</Channel>
+	<SubSys>INTERCABLE</SubSys>
+	<MSISDN>584929946837</MSISDN>
+	<SecretCode>ZFM2JjNX6SS0yzfQr2ANJA==</SecretCode>
+	<SerialNumber>0350</SerialNumber>
+	<Comment>1{910{17{01{0100135933</Comment>
+</RTBS_SCRS_IN>
+		]
+[2015Sep11 15:01:09,002][DEBUG][1441999865628][buildRequest FCHelper.java:66][INICIO de parser XML de entrada]
+[2015Sep11 15:01:09,315][DEBUG][1441999865628][processRequest FCController.java:291][-- institucion= 910]
+[2015Sep11 15:01:09,316][DEBUG][1441999865628][processRequest FCController.java:300][-- abonado= 0100135933]
+[2015Sep11 15:01:09,317][DEBUG][1441999865628][processRequest FCController.java:313][Opción de recarga, Determinada: 01]
+[2015Sep11 15:01:09,319][DEBUG][1441999865628][processRequest FCController.java:322][Se Inicia un proceso de recarga de tipo :Física, para el MSISDN: 584929946837, a las: Fri Sep 11 15:01:09 VET 2015]
+[2015Sep11 15:01:09,320][DEBUG][1441999865628][processRequest FCController.java:323][Data de entrada al Proceso a la Carta= ve.com.digitel.recarga.saldo.model.Request{ | header: {traceid=1441999865628} | context: {SerialNumber=0350, SecretCode=ZFM2JjNX6SS0yzfQr2ANJA==, Channel=IVR, Comment=1{910{17{01{0100135933, SubSys=INTERCABLE, MSISDN=584929946837}}]
+[2015Sep11 15:01:09,322][DEBUG][1441999865628][processRequest FCController.java:342][Validado XML de entrada con Éxito]
+[2015Sep11 15:01:09,334][DEBUG][1441999865628][init TransactionRegistryDelegator.java:133][Metodo de inicializacion de contexto para TransactionRegistryDelegator]
+[2015Sep11 15:01:09,337][DEBUG][1441999865628][executeValidation TransactionRegistryDelegator.java:440][selectExito previo= select sum(AMOUNT_CHARGE) as NumAttemptsDay from recarga3g.web_rech_transaction where GSM = ? and ERROR_CODE = '0' and DATE_TIME between to_date(to_char(sysdate,'yyyymmdd') || ' 00:00:00', 'yyyymmdd hh24:mi:ss') and to_date(to_char(sysdate,'yyyymmdd') || ' 23:59:59', 'yyyymmdd hh24:mi:ss') and RT_DATA_PARTITION_KEY between to_date(to_char(sysdate,'yyyymmdd') || ' 00:00:00', 'yyyymmdd hh24:mi:ss') and to_date(to_char(sysdate,'yyyymmdd') || ' 23:59:59', 'yyyymmdd hh24:mi:ss')]
+[2015Sep11 15:01:09,338][DEBUG][1441999865628][executeValidation TransactionRegistryDelegator.java:441][MSISDN= 0100135933]
+[2015Sep11 15:01:09,340][DEBUG][1441999865628][executeValidation TransactionRegistryDelegator.java:449][selectExito = select sum(AMOUNT_CHARGE) as NumAttemptsDay from recarga3g.web_rech_transaction where GSM = ? and ERROR_CODE = '0' and DATE_TIME between to_date(to_char(sysdate,'yyyymmdd') || ' 00:00:00', 'yyyymmdd hh24:mi:ss') and to_date(to_char(sysdate,'yyyymmdd') || ' 23:59:59', 'yyyymmdd hh24:mi:ss') and RT_DATA_PARTITION_KEY between to_date(to_char(sysdate,'yyyymmdd') || ' 00:00:00', 'yyyymmdd hh24:mi:ss') and to_date(to_char(sysdate,'yyyymmdd') || ' 23:59:59', 'yyyymmdd hh24:mi:ss')]
+[2015Sep11 15:01:09,361][DEBUG][1441999865628][executeValidation TransactionRegistryDelegator.java:483][selectFalla = select COUNT(*) as NumAttemptsDay from web_rech_transaction where GSM = ? and ERROR_CODE <> 0 and DATE_TIME between ( sysdate - numtodsinterval(?, 'HOUR') ) and sysdate and RT_DATA_PARTITION_KEY between to_date(to_char(sysdate-1,'yyyymmdd') || ' 00:00:00', 'yyyymmdd hh24:mi:ss') and to_date(to_char(sysdate+1,'yyyymmdd') || ' 23:59:59', 'yyyymmdd hh24:mi:ss')]
+[2015Sep11 15:01:09,364][DEBUG][1441999865628][executeValidation TransactionRegistryDelegator.java:502][exito ---> 0.0 fallido ---> 0]
+[2015Sep11 15:01:09,366][INFO ][1441999865628][executeValidation TransactionRegistryDelegator.java:505][Resultado Validación Monto y Fallidas: ve.com.digitel.bssint.ReturnValue{ | condCode: 0 | reasonCode: Proceso completado satisfactoriamente | info:  | vto: {}}]
+[2015Sep11 15:01:09,368][DEBUG][1441999865628][processRequest FCController.java:371][--- 1 requestXML:ve.com.digitel.recarga.saldo.model.Request{ | header: {traceid=1441999865628} | context: {FaceValue=0.0, SerialNumber=0350, SecretCode=ZFM2JjNX6SS0yzfQr2ANJA==, Batch=, Channel=IVR, ErrorMessage=, Comment=1{910{17{01{0100135933, COSName=, SubSys=INTERCABLE, ErrorCode=, MSISDN=584929946837}}]
+[2015Sep11 15:01:09,393][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: <soapenv:Envelope xmlns:ccws="http://comverse-in.com/prepaid/ccws" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header>
+      <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-28152406" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:Username>${username}</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">${password}</wsse:Password>
+            <wsse:Nonce>Cp1iQZD3r0oCnA7GePVaHA==</wsse:Nonce>
+            <wsu:Created>${date}</wsu:Created>
+         </wsse:UsernameToken>
+      </wsse:Security>
+      <ccws:VersionInfoHeader>
+         <!--Optional:-->
+         <ccws:ProductVersion/>
+         <!--Optional:-->
+         <ccws:CustomerVersion/>
+      </ccws:VersionInfoHeader>
+   </soapenv:Header>
+    <soapenv:Body>
+      <ccws:RetrieveVoucherBySecretCode>
+         <!--Optional:-->
+         <ccws:secretCode>${scratchCard}</ccws:secretCode>
+      </ccws:RetrieveVoucherBySecretCode>
+   </soapenv:Body>
+</soapenv:Envelope>]
+[2015Sep11 15:01:09,395][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: <soapenv:Envelope xmlns:ccws="http://comverse-in.com/prepaid/ccws" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header>
+      <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-28152406" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:Username>]
+[2015Sep11 15:01:09,396][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: username]
+[2015Sep11 15:01:09,397][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">]
+[2015Sep11 15:01:09,399][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: password]
+[2015Sep11 15:01:09,400][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </wsse:Password>
+            <wsse:Nonce>Cp1iQZD3r0oCnA7GePVaHA==</wsse:Nonce>
+            <wsu:Created>]
+[2015Sep11 15:01:09,402][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: date]
+[2015Sep11 15:01:09,403][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </wsu:Created>
+         </wsse:UsernameToken>
+      </wsse:Security>
+      <ccws:VersionInfoHeader>
+         <!--Optional:-->
+         <ccws:ProductVersion/>
+         <!--Optional:-->
+         <ccws:CustomerVersion/>
+      </ccws:VersionInfoHeader>
+   </soapenv:Header>
+    <soapenv:Body>
+      <ccws:RetrieveVoucherBySecretCode>
+         <!--Optional:-->
+         <ccws:secretCode>]
+[2015Sep11 15:01:09,404][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: scratchCard]
+[2015Sep11 15:01:09,406][DEBUG][1441999865628][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </ccws:secretCode>
+      </ccws:RetrieveVoucherBySecretCode>
+   </soapenv:Body>
+</soapenv:Envelope>]
+[2015Sep11 15:01:09,409][DEBUG][1441999865628][buildSOAPBody RTBSRetriveVoucherbySecretCodeDelegator.java:220][Codigo Encriptado= ZFM2JjNX6SS0yzfQr2ANJA==]
+[2015Sep11 15:01:09,411][DEBUG][1441999865628][applyDecrypt RTBSRetriveVoucherbySecretCodeDelegator.java:384][Se inicia el proceso para desencriptar el SecretCode #= ZFM2JjNX6SS0yzfQr2ANJA==]
+[2015Sep11 15:01:09,441][DEBUG][1441999865628][removeObject ObjectPool.java:172][Verificando la existencia de objeto reutilizable]
+[2015Sep11 15:01:09,443][DEBUG][1441999865628][waitForObject ObjectPool.java:145][Sin disponibilidad en Pool. Creando Objeto]
+[2015Sep11 15:01:09,455][DEBUG][1441999865628][applyDecrypt RTBSRetriveVoucherbySecretCodeDelegator.java:396][Codigo secreto desencriptado satisfactoriamente]
+[2015Sep11 15:01:09,456][DEBUG][1441999865628][applyDecrypt RTBSRetriveVoucherbySecretCodeDelegator.java:397][Fin de proceso de desencriptamiento]
+[2015Sep11 15:01:09,457][DEBUG][1441999865628][buildSOAPBody RTBSRetriveVoucherbySecretCodeDelegator.java:232][Codigo Desencriptado= 1580350925055]
+[2015Sep11 15:01:09,459][DEBUG][1441999865628][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2015Sep11 15:01:09,461][DEBUG][1441999865628][buildSOAPBody RTBSRetriveVoucherbySecretCodeDelegator.java:245][Comando Ensamblado <soapenv:Envelope xmlns:ccws="http://comverse-in.com/prepaid/ccws" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header>
+      <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-28152406" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:Username>weblogic</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">digitel412</wsse:Password>
+            <wsse:Nonce>Cp1iQZD3r0oCnA7GePVaHA==</wsse:Nonce>
+            <wsu:Created>2015-09-11T15:01:09.000Z</wsu:Created>
+         </wsse:UsernameToken>
+      </wsse:Security>
+      <ccws:VersionInfoHeader>
+         <!--Optional:-->
+         <ccws:ProductVersion/>
+         <!--Optional:-->
+         <ccws:CustomerVersion/>
+      </ccws:VersionInfoHeader>
+   </soapenv:Header>
+    <soapenv:Body>
+      <ccws:RetrieveVoucherBySecretCode>
+         <!--Optional:-->
+         <ccws:secretCode>1580350925055</ccws:secretCode>
+      </ccws:RetrieveVoucherBySecretCode>
+   </soapenv:Body>
+</soapenv:Envelope>]
+[2015Sep11 15:01:09,463][DEBUG][1441999865628][execute RTBSRetriveVoucherbySecretCodeDelegator.java:176][str: org.apache.commons.httpclient.methods.StringRequestEntity@1ac47a9]
+[2015Sep11 15:01:09,648][INFO ][1441999865628][parseResponseRTBS RTBSRetriveVoucherbySecretCodeDelegator.java:275][Parser: {currencyUnit=Bolivar Venezuela, batchNumber=8046, state=Used, errorCode=0, serialNumber=100350, errorDescription=Consulta de Voucher realizada con exito, faceValue=150, date=2016-05-07T00:00:00.0000000-04:30}]
+[2015Sep11 15:01:09,650][INFO ][1441999865628][parseResponseRTBS RTBSRetriveVoucherbySecretCodeDelegator.java:316][INACTIVE_CARD]
+[2015Sep11 15:01:09,671][INFO ][1441999865628][execute RTBSRetriveVoucherbySecretCodeDelegator.java:195][Resultado Validacion del Voucher, requestRecarga: ve.com.digitel.recarga.saldo.model.Request{ | header: {traceid=1441999865628} | context: {FaceValue=150.0, SerialNumber=100350, SecretCode=ZFM2JjNX6SS0yzfQr2ANJA==, Batch=8046, Channel=IVR, ErrorMessage=, Comment=1{910{17{01{0100135933, scratchCard=1580350925055, COSName=, SubSys=INTERCABLE, ErrorCode=, MSISDN=584929946837}}]
+[2015Sep11 15:01:09,673][INFO ][1441999865628][execute RTBSRetriveVoucherbySecretCodeDelegator.java:196][Resultado Validacion del Voucher, resultContents: ve.com.digitel.recarga.saldo.model.Request{ | header: {traceid=1441999865628} | context: {FaceValue=150.0, SerialNumber=100350, SecretCode=ZFM2JjNX6SS0yzfQr2ANJA==, Batch=8046, Channel=IVR, ErrorMessage=, Comment=1{910{17{01{0100135933, scratchCard=1580350925055, COSName=, SubSys=INTERCABLE, ErrorCode=, MSISDN=584929946837}}]
+[2015Sep11 15:01:09,674][DEBUG][1441999865628][executeRegistryBySP TransactionRegistryDelegator.java:175][Iniciando registro trancional de Recarga -executeRegistryBySP-.]
+[2015Sep11 15:01:09,675][INFO ][1441999865628][executeRegistryBySP TransactionRegistryDelegator.java:183][Parámetros de entrada del transactionRegistry -- Id_Subscriber= 584929946837]
+[2015Sep11 15:01:09,676][INFO ][1441999865628][executeRegistryBySP TransactionRegistryDelegator.java:186][Parámetros de entrada del transactionRegistry -- Id_Institution= 910]
+[2015Sep11 15:01:09,678][INFO ][1441999865628][executeRegistryBySP TransactionRegistryDelegator.java:188][Parámetros de entrada del transactionRegistry -- abonado     = 0100135933]
+[2015Sep11 15:01:09,679][INFO ][1441999865628][executeRegistryBySP TransactionRegistryDelegator.java:190][Parámetros de entrada del transactionRegistry -- MTRcomment  = 1{910{17{01]
+[2015Sep11 15:01:09,680][INFO ][1441999865628][executeRegistryBySP TransactionRegistryDelegator.java:192][Parámetros de entrada del transactionRegistry -- SerialNumber= 100350]
+[2015Sep11 15:01:09,682][INFO ][1441999865628][executeRegistryBySP TransactionRegistryDelegator.java:195][Parámetros de entrada del transactionRegistry -- request= ve.com.digitel.recarga.saldo.model.Request{ | header: {traceid=1441999865628} | context: {FaceValue=150.0, SerialNumber=100350, SecretCode=ZFM2JjNX6SS0yzfQr2ANJA==, Batch=8046, Channel=IVR, ErrorMessage=Tarjeta inactiva, Comment=1{910{17{01{0100135933, scratchCard=1580350925055, COSName=, SubSys=INTERCABLE, ErrorCode=60, MSISDN=584929946837}}]
+[2015Sep11 15:01:09,684][DEBUG][1441999865628][executeRegistryBySP TransactionRegistryDelegator.java:238][SP= call PKG_OPERATION3G.sp_insert_transaction  (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]
+[2015Sep11 15:01:09,734][DEBUG][1441999865628][executeRegistryBySP TransactionRegistryDelegator.java:291][transactionIDResponse=8046100350|11092015150418|0100135933|11092015153418501192000|910]
+[2015Sep11 15:01:09,736][DEBUG][1441999865628][executeRegistryBySP TransactionRegistryDelegator.java:309][Finalizado registro trancional de Recarga -executeRegistryBySP-.]
+[2015Sep11 15:01:09,737][DEBUG][1441999865628][processRequest FCController.java:1009][returnValue: ve.com.digitel.bssint.ReturnValue{ | condCode: 60 | reasonCode: Tarjeta inactiva | info:  | vto: {currencyUnit=Bolivar Venezuela, batchNumber=8046, state=Used, errorCode=0, serialNumber=100350, errorDescription=Consulta de Voucher realizada con exito, faceValue=150, date=2016-05-07T00:00:00.0000000-04:30}}]
+[2015Sep11 15:01:09,738][DEBUG][1441999865628][returnValueToString FCController.java:1100][AmountRecharge= null]
+[2015Sep11 15:01:09,739][DEBUG][1441999865628][returnValueToString FCController.java:1101][RealValue= ]
+[2015Sep11 15:01:09,741][DEBUG][1441999865628][returnValueToString FCController.java:1102][IdTransactionBDD= 8046100350|11092015150418|0100135933|11092015153418501192000|910]
+[2015Sep11 15:01:09,742][DEBUG][1441999865628][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2015Sep11 15:01:09,743][DEBUG][1441999865628][processRequest FCController.java:1014][Response: <?xml version="1.0" encoding="UTF-8" ?> 
+<RTBS_SCRS_OUT>
+	<ErrorCode>60</ErrorCode>
+	<ErrorMessage>Tarjeta inactiva</ErrorMessage>
+	<AmountRecharge></AmountRecharge>
+	<CardType></CardType>
+	<Plan></Plan>
+	<PlanMinSeg></PlanMinSeg>
+	<Balance></Balance>
+	<ExpirationDate></ExpirationDate>
+	<Bonus></Bonus>
+	<Sec412></Sec412>
+	<SecOthers></SecOthers>
+	<SecAll></SecAll>
+	<SMS></SMS>
+	<MB></MB>
+	<MMS></MMS>
+	<IdTransactionBDD>8046100350|11092015150418|0100135933|11092015153418501192000|910</IdTransactionBDD>
+</RTBS_SCRS_OUT>
+]
+[2015Sep11 15:01:09,745][INFO ][1441999865628][doPost SolicitudServlet.java:87][Response Recibido: <?xml version="1.0" encoding="UTF-8" ?> 
+<RTBS_SCRS_OUT>
+	<ErrorCode>60</ErrorCode>
+	<ErrorMessage>Tarjeta inactiva</ErrorMessage>
+	<AmountRecharge></AmountRecharge>
+	<CardType></CardType>
+	<Plan></Plan>
+	<PlanMinSeg></PlanMinSeg>
+	<Balance></Balance>
+	<ExpirationDate></ExpirationDate>
+	<Bonus></Bonus>
+	<Sec412></Sec412>
+	<SecOthers></SecOthers>
+	<SecAll></SecAll>
+	<SMS></SMS>
+	<MB></MB>
+	<MMS></MMS>
+	<IdTransactionBDD>8046100350|11092015150418|0100135933|11092015153418501192000|910</IdTransactionBDD>
+</RTBS_SCRS_OUT>
+]
+[2015Sep11 15:18:34,614][INFO ][][destroy AppProperties.java:145][Se libero la carga del Archivo Properties de manera Exitosa]

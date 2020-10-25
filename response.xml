@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<RTBS_SCRS_OUT>
+	<ErrorCode>${ErrorCode}</ErrorCode>
+	<ErrorMessage>${ErrorMessage}</ErrorMessage>
+	<AmountRecharge>${AmountRecharge}</AmountRecharge>
+	<CardType>${CardType}</CardType>
+	<Plan>${Plan}</Plan>
+	<PlanMinSeg>${PlanMinSeg}</PlanMinSeg>
+	<Balance>${Balance}</Balance>
+	<ExpirationDate>${ExpirationDate}</ExpirationDate>
+	<Bonus>${Bonus}</Bonus>
+	<Sec412>${Sec412}</Sec412>
+	<SecOthers>${SecOthers}</SecOthers>
+	<SecAll>${SecAll}</SecAll>
+	<SMS>${SMS}</SMS>
+	<MB>${MB}</MB>
+	<MMS>${MMS}</MMS>
+	<IdTransactionBDD>${IdTransactionBDD}</IdTransactionBDD>
+</RTBS_SCRS_OUT>
